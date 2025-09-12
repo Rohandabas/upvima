@@ -136,8 +136,8 @@ const Hero = () => {
                       <TrendingUp className="h-8 w-8 text-white" />
                     </div>
                     <div className="text-right">
-                      <div className="text-2xl font-bold text-white">500+</div>
-                      <div className="text-sm text-slate-300">Projects Delivered</div>
+                      {/* <div className="text-2xl font-bold text-white">5+</div>
+                      <div className="text-sm text-slate-300">Projects Delivered</div> */}
                     </div>
                   </div>
                   
