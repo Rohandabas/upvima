@@ -72,13 +72,13 @@ const Header = () => {
            <div className="flex items-center space-x-3">
   {isScrolled ? (
     <img
-      src="/src/assets/Upvima site logo.png"
+      src="/Upvima site logo.png"
       alt="Upvima Digital"
       className="h-10 w-auto transition-all duration-300"
     />
   ) : (
     <img
-      src="/src/assets/Upvima site logo.png"
+      src="/Upvima site logo.png"
       alt="Upvima Digital"
       className="h-10 w-auto invert brightness-[500%] transition-all duration-300"
     />
@@ -124,7 +124,7 @@ const Header = () => {
         {isMenuOpen && (
   <div className="fixed inset-0 bg-white z-50 flex flex-col">
     <div className="flex items-center justify-between p-4 border-b">
-      <img src="/src/assets/Upvima site logo.png" alt="Upvima Digital" className="h-10 w-auto" />
+      <img src="/Upvima site logo.png" alt="Upvima Digital" className="h-10 w-auto" />
       <button onClick={() => setIsMenuOpen(false)}>
         <X className="h-6 w-6 text-gray-700" />
       </button>
