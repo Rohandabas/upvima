@@ -15,10 +15,21 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-slate-900 via-purple-900 to-slate-900"></div>
       
       {/* Animated mesh gradient overlay */}
-      <div className="absolute inset-0 opacity-40">
+      {/* <div className="absolute inset-0 opacity-40">
         <div className="absolute inset-0 bg-gradient-to-r from-blue-600/20 via-purple-600/20 to-teal-600/20"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(120,119,198,0.3),transparent_50%)]"></div>
-      </div>
+      </div> */}
+
+
+        {/* Animated mesh gradient overlay with a sky-darkish gradient */}
+<div className="absolute inset-0 opacity-50">
+  <div className="absolute inset-0 bg-gradient-to-r from-black/80 via-gray-900/70 to-black/90"></div>
+  <div className="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(0,0,0,0.9),transparent_60%)]"></div>
+</div>
+
+
+
+
       
       {/* Floating geometric elements */}
       <div className="absolute inset-0 overflow-hidden">
