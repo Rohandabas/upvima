@@ -29,7 +29,7 @@ const Footer = () => {
           <div className="md:col-span-2">
             <div className="flex items-center space-x-3 mb-6">
               <img 
-                src="/src/assets/Upvima site logo.png" 
+                src="/Upvima site logo.png" 
                 alt="Upvima Digital" 
                 className="h-8 w-auto"
               />
