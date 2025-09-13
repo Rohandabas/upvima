@@ -98,7 +98,7 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold text-gray-900 mb-6">Get in Touch</h3>
               <p className="text-lg text-gray-600 mb-8">
-                We'd love to hear about your project and discuss how we can help your business succeed online. 
+                We'd love to hear about your project and discuss how we can help your business succeed online.
                 Reach out to us using any of the methods below.
               </p>
             </div>
@@ -111,7 +111,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">Email</h4>
-                  <p className="text-gray-600">info@upvima.com</p>
+                  <a href="mailto:info@upvima.com" className="text-gray-600 hover:underline">
+                    info@upvima.com
+                  </a>
                   <p className="text-sm text-gray-500 mt-1">We typically respond within 24 hours</p>
                 </div>
               </div>
@@ -122,8 +124,8 @@ const Contact = () => {
                 </div>
                 <div>
                   <h4 className="text-lg font-semibold text-gray-900">LinkedIn</h4>
-                  <a 
-                    href="https://linkedin.com/company/upvima-digital" 
+                  <a
+                    href="https://linkedin.com/company/upvima-digital"
                     className="text-green-600 hover:text-green-700 transition-colors"
                     target="_blank"
                     rel="noopener noreferrer"
