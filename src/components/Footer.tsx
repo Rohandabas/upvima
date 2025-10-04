@@ -87,8 +87,8 @@ const Footer = () => {
         <div className="border-t border-gray-800 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
             <div className="flex items-center space-x-2 text-gray-300">
-              <span>Made with</span>
-              <Heart className="h-4 w-4 text-red-500 fill-current" />
+              <span>Made</span>
+              {/* <Heart className="h-4 w-4 text-red-500 fill-current" /> */}
               <span>by Upvima Digital</span>
             </div>
             <p className="text-gray-400 text-sm">
